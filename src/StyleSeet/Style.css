@@ -1,0 +1,178 @@
+
+  body {
+    font-family: 'Montserrat', sans-serif; }
+  
+  h1 {
+    color: #FFF;
+    font-size: 64px;
+    text-align: center;
+    line-height: 200px; }
+  
+  .header {
+    width: 100%;
+    height: 200px;
+    background: url("https://images.pexels.com/photos/18666531/pexels-photo-18666531.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=1400&dpr=1");
+    background-size: cover; }
+  
+  .container {
+    max-width: 90%;
+    margin: 50px auto; }
+  
+  .sidebar {
+    display: inline-block;
+    width: 25%;
+    border-radius: 3px;
+    overflow: hidden; }
+  
+  .sidebar i {
+    margin-right: 15px; }
+  
+  .sidebar__header {
+    vertical-align: top;
+    /* background: #FAFBFB; */
+    padding: 20px;
+    border-bottom: 1px solid #F0F1F2; }
+    .sidebar__header img.sidebar__avatar {
+      float: left;
+      border-radius: 50%;
+      margin-right: 10px; }
+    .sidebar__header p {
+      line-height: 2em;
+      margin: 0; }
+  
+  .sidebar__menu-item {
+    /* background: #FFF; */
+    padding: 20px;
+    color: #999;
+    border-bottom: 1px solid #F0F1F2;
+    transition: all .3s ease; }
+    .sidebar__menu-item--active {
+      color: #000;
+       }
+    .sidebar__menu-item:hover {
+      background: #c6c4c4;
+      color: #fff;
+      cursor: pointer; }
+  
+  .sidebar__label {
+    float: right;
+    font-size: 80%;
+    line-height: 1.6em;
+    color: #FDE756; }
+  
+  .sidebar__badge {
+    text-align: center;
+    float: right;
+    font-size: 70%;
+    line-height: 1.8em;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #FFF;
+    /* background: #8ED081;  */
+  }
+  .main {
+    width: 70%;
+    vertical-align: top;
+    display: inline-block;
+    /* background: #FFF; */
+    margin-left: 3%;
+    border-radius: 3px;
+    overflow: hidden; }
+  
+  .main__header {
+    padding: 20px;
+    border-bottom: 1px solid #F0F1F2; }
+  
+  .main__content {
+    padding: 20px; }
+  
+  .main__avatar {
+    background: url("https://scontent.fccu4-2.fna.fbcdn.net/v/t39.30808-1/366384148_122097935000010531_5662015118234355132_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=5740b7&_nc_ohc=odL3Xab5fHMAX-lOYpo&_nc_ht=scontent.fccu4-2.fna&oh=00_AfCziClSwUCfahUgIDNgipWLTwNr9gAeB3U2WhzzU8gBRA&oe=6571FD09");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    display: block;
+    vertical-align: middle;
+    margin: 20px auto;
+    border-radius: 50%;
+    overflow: hidden; }
+  
+  .main__avatar:hover .main__avatar--overlay {
+    opacity: 1;
+    border-radius: 50%; }
+  
+  .main__avatar--overlay {
+    opacity: 0;
+    background: rgba(52, 138, 167, 0.6);
+    color: #FFF;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 50%;
+    transition: all .3s ease;
+    cursor: pointer; }
+  
+  .main__settings-form {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto; }
+  
+  .main__input-label {
+    font-size: 80%;
+    color: #C4C1C9;
+    display: block;
+    margin: 5px 5px 5px 5px; }
+  
+  .main__input {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #F1F3F5;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 15px;
+    border-radius: 3px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif; }
+    .main__input:focus {
+      border: 1px solid #348AA7;
+      transition: all .3s ease; }
+  
+  .btn {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+    padding: 15px 25px;
+    border-radius: 3px;
+    transition: all .3s ease; }
+  
+  .main__save-button {
+    color: #FFF;
+    background-color: #8ED081;
+ }
+    .main__save-button:hover {
+      background-color: #6dc25c;
+      cursor: pointer; }
+  
+  .main__cancel-button {
+    color: #FFF;
+    background: #CCC; }
+    .main__cancel-button:hover {
+      background-color: #b3b3b3;
+      cursor: pointer; }
+
+  
+  @media (max-width: 764px) {
+    .sidebar {
+      width: 100%;
+      margin-bottom: 20px; }
+    .sidebar__menu-item {
+      padding: 15px; }
+    .main {
+      width: 100%;
+      margin: 0; }
+    h1 {
+      font-size: 44px; }
+    footer {
+      text-align: center; } }
+  
