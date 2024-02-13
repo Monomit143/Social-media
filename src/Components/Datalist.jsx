@@ -1,6 +1,6 @@
 export const itemData = [
   {
-    img: "https://bestideadiy.com/wp-content/uploads/2023/06/best-friends-day.jpg",
+    img: "https://images.pexels.com/photos/2916828/pexels-photo-2916828.jpeg?cs=srgb&dl=pexels-andre-furtado-2916828.jpg&fm=jpg",
     title: "Burger",
   },
   {
